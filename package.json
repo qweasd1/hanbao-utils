@@ -1,0 +1,16 @@
+{
+  "name": "hanbao-utils",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qweasd1/hanbao-utils.git"
+  },
+  "description": "utils methods to help you build hanbao plugins",
+  "maintainers": [
+    {
+      "name": "tony",
+      "email": "zhw65@pitt.edu"
+    }
+  ]
+}
