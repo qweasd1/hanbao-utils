@@ -8,7 +8,7 @@ let nestedModule1 = function (){
   "nest-module1"
 }
 
-module.exports.info = {
+nestedModule1.info = {
   name:"nest-module1"
 }
 

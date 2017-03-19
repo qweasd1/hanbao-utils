@@ -68,26 +68,26 @@ const loadHanbaoModule = require('../lib/index').loadHanbaoModule;
 // );
 
 
-// // module factory with exception
-//
-// try {
-//   console.log(loadHanbaoModule(
-//     [
-//       {
-//         plugin:"./testmodule/module-factory-with-exception",
-//         options:"test"
-//       }
-//
-//     ],
-//     {
-//       workingDir:__dirname,
-//       factoryFieldName:"plugin"
-//     })
-//   );
-// }
-// catch(e){
-//   console.log(e);
-// }
+// module factory with exception
+
+try {
+  console.log(loadHanbaoModule(
+    [
+      {
+        plugin:"./testmodule/module-factory-with-exception",
+        options:"test"
+      }
+
+    ],
+    {
+      workingDir:__dirname,
+      factoryFieldName:"plugin"
+    })
+  );
+}
+catch(e){
+  console.log(e);
+}
 
 
 // module factory with exception
